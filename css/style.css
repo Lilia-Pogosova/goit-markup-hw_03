@@ -108,8 +108,8 @@ img {
 /* Header content */
 
 .header{
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -410,6 +410,7 @@ padding-bottom: 94px;
     letter-spacing: 0.01em;
     
     color: #212121;
+    margin-bottom: 10px;
     
     }
 
@@ -443,14 +444,14 @@ padding-bottom: 94px;
 
 .footer{
     padding-bottom: 60px;
-    padding-left: 15px;
+    
     padding-top: 60px;
     background: #2F303A;
 }
 .conteiner-footer {
     width: 1200px;
     margin: 0 auto;
-    
+    padding: 0 15px;
 }
 
 
@@ -483,7 +484,7 @@ padding-bottom: 20px;
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-mail{
@@ -497,7 +498,7 @@ padding-bottom: 20px;
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);  
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-tel{
@@ -528,6 +529,7 @@ padding-bottom: 20px;
 }
 ul.buttons>li{
 display: inline;
+margin-right: 8px;
 
 }
 
@@ -536,7 +538,7 @@ display: inline;
 .button-sites{
 padding: 6px 22px 6px 22px;
 width: 125px;
-margin-right: 8px;
+
 background: #F5F4FA;
         font-family: 'Roboto';
         font-weight: 500;
@@ -578,6 +580,7 @@ background: #F5F4FA;
     padding: 20px 24px 20px 24px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+    border-top: 0px;
 }
 
 .box-title {
