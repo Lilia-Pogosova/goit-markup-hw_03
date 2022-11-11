@@ -124,18 +124,15 @@ img {
 
 .logo-header{
     color: #2196F3;
-    cursor: default;
     font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
-
         margin-right: 93px;
 
 }
 
 .logo-type-header{
-    cursor: default;
     color: black
     
 }
@@ -464,14 +461,15 @@ font-weight: 700;
 font-size: 26px;
 line-height: 31px;
 color: #2196F3;
-cursor: default;
-padding-bottom: 20px;
+margin-bottom: 20px;
 
 }
 
 .logo-type-footer {
-    cursor: default;
     color: white
+}
+.list-footer{
+    margin-bottom: 9px;
 }
 
 .footer-geo{
@@ -484,7 +482,7 @@ padding-bottom: 20px;
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
-    margin-bottom: 9px;
+
 }
 
 .footer-mail{
@@ -498,7 +496,7 @@ padding-bottom: 20px;
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);  
-    margin-bottom: 9px;
+    
 }
 
 .footer-tel{
@@ -520,27 +518,30 @@ padding-bottom: 20px;
 
  /* Header content */
 
+.main-buttons{
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
-.conteiner-buttons{
+.buttons{
     display: flex;
     justify-content: center;
-    padding-bottom:50px ;
-    padding-top: 94px;
+    margin-bottom:50px ;
+    
 }
 ul.buttons>li{
 display: inline;
 margin-right: 8px;
-
 }
 
 
 
 .button-sites{
 padding: 6px 22px 6px 22px;
-width: 125px;
+
 
 background: #F5F4FA;
-        font-family: 'Roboto';
+        font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
@@ -563,18 +564,16 @@ background: #F5F4FA;
 
 /* Portfolio content */
 
-.portfolio-conteiner{
+.portfolio-content{
     width: 1200px;
     margin: 0 auto;
-    padding-bottom: 94px;
-
-}
-
-.portfolio-conteiner>ul {
+    
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
+
+
 
 .box-portfolio {
     padding: 20px 24px 20px 24px;
